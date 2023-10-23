@@ -16,7 +16,7 @@ const scores = [
 // 66
 // ==========================================
 
-// ANTWOORD 1a,b,c:
+// ANTWOORD opdr 1a,b,c:
 
 //
 //
@@ -43,8 +43,8 @@ const scores = [
 //         }
 //
 // console.log(scores);
-
-
+//
+//
 
 
 
@@ -104,6 +104,8 @@ const noviEmployees = [
 //  ];
 // ==========================================
 
+// ANTWOORD opdr 2 + bonus:
+
 // for (let i=0; i < noviEmployees.length; i++)
 // {
 //     noviEmployees[i].email = noviEmployees[i].firstName + '.' + noviEmployees[i].lastName + '@novi.nl';
@@ -117,7 +119,7 @@ const noviEmployees = [
 // Lukt het je om ervoor te zorgen dat alle e-mailadressen in lowercase letters komen te staan? Dit heb je nog niet geleerd, maar google is your best friend...
 // ==========================================
 
-// ANTWOORD: ja
+
 
 
 // ==========================================
@@ -164,7 +166,7 @@ const students = [
 // ]
 // ==========================================
 
-// ANTWOORD:
+// ANTWOORD opdr 3:
 
 // for (let i=0; i<students.length; i++){
 //     switch (students[i].zipCode){
@@ -195,4 +197,4 @@ const students = [
 //                }
 // }
 // console.log(students);
-
+//

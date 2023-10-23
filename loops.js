@@ -11,12 +11,12 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
-//ANTWOORD:
-
+//ANTWOORD opdr 1:
+//
 // for (let i= 0; i<6; i++){
 //     console.log(`*`.repeat(i));
 // }
-//
+
 
 
 
@@ -30,7 +30,7 @@
 // klaar!
 // ==========================================
 
-//ANTWOORD:
+//ANTWOORD opdr 2:
 
 // for ( let i=0; i<5; i++){
 //     if (i<4){
@@ -58,7 +58,7 @@
 // >> 9
 // ==========================================
 
-// ANTWOORD:
+// ANTWOORD opdr 3:
 
 // for (i=0; i<10; i++){
 //     if (i<3){
@@ -109,7 +109,7 @@
 // etc.
 // ==========================================
 
-// ANTWOORD:
+// ANTWOORD opdr 4:
 //
 // for (let i=0; i<100; i++) {
 //     if(i%3===0 && i%5===0){
