@@ -16,6 +16,35 @@ const scores = [
 // 66
 // ==========================================
 
+// ANTWOORD 1a,b,c:
+
+//
+//
+// for (let i=0; i<scores.length; i++){
+//     if(scores[i].score < 60){
+//         scores[i].grade="F"
+//     console.log(`${scores[i].name} heeft een ${scores[i].grade}`)}
+//     else if
+//         (scores[i].score < 70){
+//         scores[i].grade="D"
+//         console.log(`${scores[i].name} heeft een ${scores[i].grade}`)}
+//     else if
+//     (scores[i].score < 80){
+//         scores[i].grade="C"
+//         console.log(`${scores[i].name} heeft een ${scores[i].grade}`)}
+//     else if
+//     (scores[i].score < 90){
+//         scores[i].grade="B"
+//         console.log(`${scores[i].name} heeft een ${scores[i].grade}`)}
+//     else if
+//     (scores[i].score <= 100){
+//         scores[i].grade="A"
+//         console.log(`${scores[i].name} heeft een ${scores[i].grade}`)}
+//         }
+//
+// console.log(scores);
+
+
 
 
 
@@ -57,7 +86,7 @@ const scores = [
 // Opdracht 2
 // Schrijf een script die e-mailadressen genereert voor al onze medewerkers. Sla dit op in een nieuwe property "email" die je toevoegt aan iedere medewerker.
 
-const NOVIEmployees = [
+const noviEmployees = [
     {firstName: 'Nova', lastName: 'Eeken'},
     {firstName: 'Sam', lastName: 'Barnhoorn'},
     {firstName: 'Tessa', lastName: 'Steur'},
@@ -75,8 +104,12 @@ const NOVIEmployees = [
 //  ];
 // ==========================================
 
-
-
+// for (let i=0; i < noviEmployees.length; i++)
+// {
+//     noviEmployees[i].email = noviEmployees[i].firstName + '.' + noviEmployees[i].lastName + '@novi.nl';
+//     noviEmployees[i].email = noviEmployees[i].email.toLowerCase();
+//     console.log(noviEmployees[i]);
+// }
 
 
 
@@ -84,12 +117,12 @@ const NOVIEmployees = [
 // Lukt het je om ervoor te zorgen dat alle e-mailadressen in lowercase letters komen te staan? Dit heb je nog niet geleerd, maar google is your best friend...
 // ==========================================
 
-
+// ANTWOORD: ja
 
 
 // ==========================================
 // Opdracht 3
-// Schrijf een script die de property "neighborhood" (de buurt) invult op basis van de postcode van onze studenten.
+// Schrijf een script dat de property "neighborhood" (de buurt) invult op basis van de postcode van onze studenten.
 // Tip: is het hier handig om if-else te gebruiken, of is er wellicht een betere manier?
 // 	3513 = Pijlsweerd
 //  3514 = Vogelenbuurt
@@ -131,5 +164,35 @@ const students = [
 // ]
 // ==========================================
 
+// ANTWOORD:
 
+for (let i=0; i<students.length; i++){
+    switch (students[i].zipCode){
+        case '3513':
+            students[i].neighborhood = 'Pijlsweerd';
+            break;
+        case '3514':
+            students[i].neighborhood = 'Vogelenbuurt';
+            break;
+        case '3512':
+            students[i].neighborhood = 'Binnenstad';
+            break;
+        case '3531':
+            students[i].neighborhood = 'Lombok';
+            break;
+        case '3572':
+            students[i].neighborhood = 'Wittevrouwen';
+            break;
+        case '3581':
+            students[i].neighborhood = 'Oudwijk';
+            break;
+        case '3583':
+            students[i].neighborhood = 'Schildersbuurt';
+            break;
+
+        default:
+            console.log('nee');
+               }
+}
+console.log(students);
 

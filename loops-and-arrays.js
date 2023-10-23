@@ -12,7 +12,11 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
+// ANTWOORD:
 
+// for (i=0; i < names.length; i++){
+//     console.log(names[i] + 'je');
+// }
 
 
 
@@ -30,7 +34,14 @@ const numbers = [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
 
+// ANTWOORD:
 
+// for (let i = 0; i<numbers.length; i++){
+//     if(numbers[i]%2===0){
+//         console.log(numbers[i]*2)}
+//     else{
+//         console.log(numbers[i]*3)}
+//     }
 
 
 
@@ -56,6 +67,15 @@ const squares = [30, 2, 8, 24, 11];
 //   'Het volume van 24 is 13824',
 //   'Het volume van 11 is 1331'
 // ]
+
+// ANTWOORD:
+
+// for (let i = 0; i<squares.length; i++){
+// var a = squares[i];
+// var b = Math.pow(squares[i], 3);
+// console.log(`Het volume van een kubus met zijden van ${a} cm, is ${b} cm³`)}
+//
+
 
 
 
